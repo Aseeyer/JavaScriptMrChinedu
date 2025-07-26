@@ -41,17 +41,17 @@ function calculateGrade(total) {
 
 function getFeedback(grade) {
     if (grade === 'A') {
-        alert("You had an excellent performance! Keep it up. 🙌🥳🎊");
+        alert("You had an excellent performance! Keep it up.");
     } else if (grade === 'B') {
-        alert("Good job, keep improving! 😊👌");
+        alert("Good job, keep improving!");
     } else if (grade === 'C') {
-        alert("Impressive! There is room for improvement 🤒⃕😊👌");
+        alert("Impressive! There is room for improvement!");
     } else if (grade === 'D') {
-        alert("You can do better - keep studying! 💻⋆⭒˚☕️｡⋆");
+        alert("You can do better - keep studying!");
     } else if (grade === 'E') {
-        alert("Poor performance - keep studying! ✧💻☕📝");
+        alert("Poor performance - keep studying!");
     } else {
-        alert("You failed. Please attend classes!! ❌📉");
+        alert("You failed. Please attend classes!! ");
     }
 }
 
