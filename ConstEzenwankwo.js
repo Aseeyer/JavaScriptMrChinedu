@@ -5,7 +5,9 @@ This app allows a user to input a student's test and exam scores,
 calculates the total score, assigns a grade based on the total, 
 and provides feedback using emojis.
 
-Test score must be between 0 and 30
+Using prompt() to collect input from the user 
+and alert() to display
+score must be between 0 and 30
 Exam score must be between 0 and 70
 Grade is calculated based on total score:
 A (70+), B (60–69), C (50–59), D (45–49), E (40–44), F (<40)
